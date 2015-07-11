@@ -1,11 +1,12 @@
 #!/usr/bin/perl
 
 ###############################################################################################################
-## INPUT1 = intron18_exon19_ref.fasta = reference seq                                                        ##
+## INPUT1 = intron18_exon19_ref.fasta = reference seq from Vectorbase                                        ##
 ## INPUT2 = intron19_exon19_variant_positions.txt = list of actual haplotype variant positions on chromosome ##
+## from Phase output 											     ##
 ## INPUT3 = gambiae_haplotypes.txt = fasta style list of PHASE output haplotypes                             ## 
-## OUTPUT = consensus sequence - combines reference seq with each haplotypes variants, output is .fasta 	 ##
-## chris clarkson csc@liv.ac.uk 05/11/14																     ##
+## OUTPUT = consensus sequence - combines reference seq with each haplotypes variants, output is .fasta      ##
+## chris clarkson csc@liv.ac.uk 05/11/14								     ##							     ##
 ###############################################################################################################
 
 use strict;
